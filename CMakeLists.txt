@@ -1,8 +1,10 @@
 cmake_minimum_required(VERSION 3.21)
 # 这里是工程名称  C工程
-project(FFplay_debug C)
+#project(FFplay_debug C)
+project(FFplay_debug)
 
-set(CMAKE_C_STANDARD 99)
+#set(CMAKE_C_STANDARD 99)
+set(CMAKE_CXX_STANDARD 17)
 
 cmake_minimum_required(VERSION 3.17)
 
